@@ -133,6 +133,16 @@
       <button>Comprar</button>
        </a>
     </div>
+         <section class="productos">
+    <div class="producto">
+      <h3>Poyector de Video</h3>
+      <img src="imagenes/2.jpg" style="width:200px;height:200px;">
+      <button onclick="abrirModal('producto5')">Ver más</button>
+  <a>
+       <a href=" https://wa.me/5214776063581" target="_blank" style="text-decoration: none;">
+         <button>Comprar</button>
+       </a>
+    </div>
     <!-- Agrega más productos según necesites -->
   </section>
 
@@ -191,7 +201,19 @@
     </center>
     </div>
   </div>    
-
+<div id="producto1" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="cerrarModal('producto5')">&times;</span>
+      <h2>Proyector Portatil</h2>
+      <center>
+      <img src="imagenes/1.jpg" style="width:200px;height:200px;">
+      <img src="imagenes/3.jpg" style="width:200px;height:200px;">
+      <img src="imagenes/4.jpg" style="width:200px;height:200px;">
+      <p>Audifonos Bluetooth oem 3ra generacion gps carga inalambrica compatible con iphone y Android. 
+      color: Blanco <strong>$280</strong></p>
+    </center>
+    </div>
+  </div>
   <script>
     function abrirModal(id) {
       document.getElementById(id).style.display = 'block';
